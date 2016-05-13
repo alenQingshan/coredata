@@ -112,6 +112,7 @@
 #pragma mark - Core Data Saving support
 
 - (void)saveContext {
+    NSLog(@"存储成功");
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
         NSError *error = nil;

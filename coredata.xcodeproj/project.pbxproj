@@ -16,6 +16,10 @@
 		EADDE1501CE59FE100E4970F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADDE14E1CE59FE100E4970F /* LaunchScreen.storyboard */; };
 		EADDE15B1CE59FE100E4970F /* coredataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EADDE15A1CE59FE100E4970F /* coredataTests.m */; };
 		EADDE1661CE59FE100E4970F /* coredataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EADDE1651CE59FE100E4970F /* coredataUITests.m */; };
+		EADDE1871CE5A23600E4970F /* Sex+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EADDE1801CE5A23600E4970F /* Sex+CoreDataProperties.m */; };
+		EADDE1881CE5A23600E4970F /* Sex.m in Sources */ = {isa = PBXBuildFile; fileRef = EADDE1821CE5A23600E4970F /* Sex.m */; };
+		EADDE1891CE5A23600E4970F /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EADDE1841CE5A23600E4970F /* Person+CoreDataProperties.m */; };
+		EADDE18A1CE5A23600E4970F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EADDE1861CE5A23600E4970F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		EADDE1611CE59FE100E4970F /* coredataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coredataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADDE1651CE59FE100E4970F /* coredataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coredataUITests.m; sourceTree = "<group>"; };
 		EADDE1671CE59FE100E4970F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADDE17F1CE5A23600E4970F /* Sex+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sex+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EADDE1801CE5A23600E4970F /* Sex+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Sex+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EADDE1811CE5A23600E4970F /* Sex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sex.h; sourceTree = "<group>"; };
+		EADDE1821CE5A23600E4970F /* Sex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sex.m; sourceTree = "<group>"; };
+		EADDE1831CE5A23600E4970F /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EADDE1841CE5A23600E4970F /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EADDE1851CE5A23600E4970F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EADDE1861CE5A23600E4970F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +124,14 @@
 				EADDE14E1CE59FE100E4970F /* LaunchScreen.storyboard */,
 				EADDE1511CE59FE100E4970F /* Info.plist */,
 				EADDE1491CE59FE100E4970F /* coredata.xcdatamodeld */,
+				EADDE17F1CE5A23600E4970F /* Sex+CoreDataProperties.h */,
+				EADDE1801CE5A23600E4970F /* Sex+CoreDataProperties.m */,
+				EADDE1811CE5A23600E4970F /* Sex.h */,
+				EADDE1821CE5A23600E4970F /* Sex.m */,
+				EADDE1831CE5A23600E4970F /* Person+CoreDataProperties.h */,
+				EADDE1841CE5A23600E4970F /* Person+CoreDataProperties.m */,
+				EADDE1851CE5A23600E4970F /* Person.h */,
+				EADDE1861CE5A23600E4970F /* Person.m */,
 				EADDE13D1CE59FE100E4970F /* Supporting Files */,
 			);
 			path = coredata;
@@ -273,9 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EADDE1881CE5A23600E4970F /* Sex.m in Sources */,
+				EADDE1871CE5A23600E4970F /* Sex+CoreDataProperties.m in Sources */,
+				EADDE18A1CE5A23600E4970F /* Person.m in Sources */,
 				EADDE14B1CE59FE100E4970F /* coredata.xcdatamodeld in Sources */,
 				EADDE1451CE59FE100E4970F /* ViewController.m in Sources */,
 				EADDE1421CE59FE100E4970F /* AppDelegate.m in Sources */,
+				EADDE1891CE5A23600E4970F /* Person+CoreDataProperties.m in Sources */,
 				EADDE13F1CE59FE100E4970F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
