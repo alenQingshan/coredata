@@ -1,0 +1,2 @@
+# coredata
+最简单的coredata,实现了在系统创建时勾选coredata的增删改查
